@@ -82,3 +82,4 @@ class LoginView(APIView):
             }
             return Response(response,status=status.HTTP_200_OK)
         return Response({'error':'invalid information'},status=status.HTTP_400_BAD_REQUEST)
+
